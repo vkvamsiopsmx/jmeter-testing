@@ -1,0 +1,54 @@
+Sep 03, 2020 2:35:23 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-oes-datasource.jmx
+Starting the test @ Thu Sep 03 14:35:24 GMT 2020 (1599143724799)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     22 in 00:00:04 =    5.5/s Avg:   155 Min:    74 Max:  1428 Err:    22 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +      1 in 00:00:00 =   12.2/s Avg:    73 Min:    73 Max:    73 Err:     1 (100.00%) Active: 0 Started: 1 Finished: 1
+summary =     23 in 00:00:04 =    5.7/s Avg:   152 Min:    73 Max:  1428 Err:    23 (100.00%)
+Tidying up ...    @ Thu Sep 03 14:35:30 GMT 2020 (1599143730086)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-oes-createApp.jmx
+Starting the test @ Thu Sep 03 14:35:35 GMT 2020 (1599143735625)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     44 in 00:01:28 =    0.5/s Avg:   330 Min:    81 Max:  1495 Err:     1 (2.27%) Active: 1 Started: 1 Finished: 0
+summary +     21 in 00:00:29 =    0.7/s Avg:   627 Min:    59 Max:  5476 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =     65 in 00:01:57 =    0.6/s Avg:   426 Min:    59 Max:  5476 Err:     1 (1.54%)
+summary +      5 in 00:00:34 =    0.1/s Avg:   749 Min:   293 Max:  1979 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     70 in 00:02:31 =    0.5/s Avg:   449 Min:    59 Max:  5476 Err:     1 (1.43%)
+Tidying up ...    @ Thu Sep 03 14:38:07 GMT 2020 (1599143887723)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using C-App-data-edit.jmx
+Starting the test @ Thu Sep 03 14:38:14 GMT 2020 (1599143894405)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     23 in 00:00:10 =    2.4/s Avg:   386 Min:    72 Max:  2543 Err:     2 (8.70%)
+Tidying up ...    @ Thu Sep 03 14:38:25 GMT 2020 (1599143905121)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using D-oes-delete.jmx
+Starting the test @ Thu Sep 03 14:38:30 GMT 2020 (1599143910197)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.3/s Avg:   263 Min:   263 Max:   263 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +     20 in 00:00:02 =    8.4/s Avg:   116 Min:    81 Max:   189 Err:    20 (100.00%) Active: 0 Started: 1 Finished: 1
+summary =     21 in 00:00:03 =    6.7/s Avg:   123 Min:    81 Max:   263 Err:    21 (100.00%)
+Tidying up ...    @ Thu Sep 03 14:38:34 GMT 2020 (1599143914514)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using E-oes-policy-create.jmx
+Starting the test @ Thu Sep 03 14:38:39 GMT 2020 (1599143919766)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     53 in 00:00:14 =    3.8/s Avg:   239 Min:    60 Max:  2346 Err:     1 (1.89%)
+Tidying up ...    @ Thu Sep 03 14:38:55 GMT 2020 (1599143935680)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using F-oes-policy-edit-and-delete.jmx
+Starting the test @ Thu Sep 03 14:39:00 GMT 2020 (1599143940462)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:02 =    0.5/s Avg:  1537 Min:  1537 Max:  1537 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +     29 in 00:00:06 =    4.7/s Avg:   211 Min:    61 Max:   840 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     30 in 00:00:08 =    3.7/s Avg:   255 Min:    61 Max:  1537 Err:     1 (3.33%)
+Tidying up ...    @ Thu Sep 03 14:39:10 GMT 2020 (1599143950053)
+... end of run
