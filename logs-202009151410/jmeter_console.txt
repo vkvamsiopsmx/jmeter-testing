@@ -1,0 +1,48 @@
+Sep 15, 2020 2:10:35 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting the test @ Tue Sep 15 14:10:37 GMT 2020 (1600179037209)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     14 in 00:00:01 =   25.7/s Avg:     0 Min:     0 Max:     0 Err:    14 (100.00%)
+Tidying up ...    @ Tue Sep 15 14:10:39 GMT 2020 (1600179039449)
+... end of run
+The JVM should have exited but did not.
+The following non-daemon threads are still running (DestroyJavaVM is OK):
+Thread[DestroyJavaVM,5,main], stackTrace:java.lang.Object#wait
+java.lang.Thread#join at line:1252
+java.lang.Thread#join at line:1326
+java.lang.ApplicationShutdownHooks#runHooks at line:107
+java.lang.ApplicationShutdownHooks$1#run at line:46
+java.lang.Shutdown#runHooks at line:123
+java.lang.Shutdown#sequence at line:167
+java.lang.Shutdown#shutdown at line:234
+
+Thread[Thread-2,5,main], stackTrace:java.util.prefs.AbstractPreferences#isRemoved at line:1437
+java.util.prefs.FileSystemPreferences#syncSpiPrivileged at line:792
+java.util.prefs.FileSystemPreferences#access$2300 at line:50
+java.util.prefs.FileSystemPreferences$12#run at line:783
+java.util.prefs.FileSystemPreferences$12#run at line:781
+java.security.AccessController#doPrivileged
+java.util.prefs.FileSystemPreferences#syncSpi at line:780
+java.util.prefs.AbstractPreferences#sync2 at line:1338
+java.util.prefs.AbstractPreferences#sync2 at line:1343
+java.util.prefs.AbstractPreferences#sync2 at line:1343
+java.util.prefs.AbstractPreferences#sync2 at line:1343
+java.util.prefs.AbstractPreferences#sync2 at line:1343
+java.util.prefs.AbstractPreferences#sync2 at line:1343
+java.util.prefs.AbstractPreferences#sync2 at line:1343
+java.util.prefs.AbstractPreferences#sync at line:1329
+java.util.prefs.FileSystemPreferences#sync at line:759
+java.util.prefs.FileSystemPreferences#flush at line:836
+java.util.prefs.FileSystemPreferences#syncWorld at line:476
+java.util.prefs.FileSystemPreferences#access$1200 at line:50
+java.util.prefs.FileSystemPreferences$4$1#run at line:454
+
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting the test @ Tue Sep 15 14:10:47 GMT 2020 (1600179047883)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     20 in 00:00:01 =   35.0/s Avg:     0 Min:     0 Max:     0 Err:    20 (100.00%)
+Tidying up ...    @ Tue Sep 15 14:10:49 GMT 2020 (1600179049829)
+... end of run
