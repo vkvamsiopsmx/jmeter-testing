@@ -1,0 +1,32 @@
+Sep 22, 2020 4:15:17 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting the test @ Tue Sep 22 16:15:19 GMT 2020 (1600791319253)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:02:11 =    0.0/s Avg: 130067 Min: 130067 Max: 130067 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +      3 in 00:06:33 =    0.0/s Avg: 131065 Min: 131059 Max: 131074 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =      4 in 00:08:44 =    0.0/s Avg: 130815 Min: 130067 Max: 131074 Err:     4 (100.00%)
+summary +      5 in 00:10:55 =    0.0/s Avg: 131070 Min: 131063 Max: 131077 Err:     5 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =      9 in 00:19:39 =    0.0/s Avg: 130957 Min: 130067 Max: 131077 Err:     9 (100.00%)
+summary +      3 in 00:06:33 =    0.0/s Avg: 131070 Min: 131068 Max: 131071 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =     12 in 00:26:12 =    0.0/s Avg: 130985 Min: 130067 Max: 131077 Err:    12 (100.00%)
+summary +      1 in 00:02:11 =    0.0/s Avg: 131069 Min: 131069 Max: 131069 Err:     1 (100.00%) Active: 0 Started: 1 Finished: 1
+summary =     13 in 00:28:23 =    0.0/s Avg: 130991 Min: 130067 Max: 131077 Err:    13 (100.00%)
+Tidying up ...    @ Tue Sep 22 16:43:44 GMT 2020 (1600793024337)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting the test @ Tue Sep 22 16:43:49 GMT 2020 (1600793029877)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:02:10 =    0.0/s Avg: 129453 Min: 129453 Max: 129453 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +      3 in 00:06:33 =    0.0/s Avg: 131059 Min: 131041 Max: 131071 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =      4 in 00:08:43 =    0.0/s Avg: 130658 Min: 129453 Max: 131071 Err:     4 (100.00%)
+summary +      5 in 00:10:55 =    0.0/s Avg: 131070 Min: 131069 Max: 131071 Err:     5 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =      9 in 00:19:39 =    0.0/s Avg: 130887 Min: 129453 Max: 131071 Err:     9 (100.00%)
+summary +      3 in 00:06:33 =    0.0/s Avg: 131067 Min: 131060 Max: 131071 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =     12 in 00:26:12 =    0.0/s Avg: 130932 Min: 129453 Max: 131071 Err:    12 (100.00%)
+summary +      7 in 00:15:18 =    0.0/s Avg: 131062 Min: 131024 Max: 131075 Err:     7 (100.00%) Active: 0 Started: 1 Finished: 1
+summary =     19 in 00:41:29 =    0.0/s Avg: 130980 Min: 129453 Max: 131075 Err:    19 (100.00%)
+Tidying up ...    @ Tue Sep 22 17:25:20 GMT 2020 (1600795520840)
+... end of run
