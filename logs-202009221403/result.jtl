@@ -1,0 +1,36 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1600783415749,2191,/login-42,302,,Thread Group 1-1,,true,,915,558,1,1,https://nightly-oes3-gate.opsmx.com/login,2191,0,1358
+1600783417950,274,/auth/user-44,200,,Thread Group 1-1,text,true,,1138,443,1,1,https://nightly-oes3-gate.opsmx.com/auth/user,274,0,42
+1600783418226,1433,/oes/dashboard/widgetRawData-49,200,,Thread Group 1-1,text,true,,1168,461,1,1,https://nightly-oes3-gate.opsmx.com/oes/dashboard/widgetRawData,1420,0,0
+1600783419660,335,/oes/dashboard/dynamicMenu-46,200,,Thread Group 1-1,text,true,,1271,459,1,1,https://nightly-oes3-gate.opsmx.com/oes/dashboard/dynamicMenu,335,0,0
+1600783420014,779,/platformservice/v1/applications-50,200,,Thread Group 1-1,text,true,,1163,465,1,1,https://nightly-oes3-gate.opsmx.com/platformservice/v1/applications,779,0,89
+1600783420796,367,/platformservice/v1/users/user2/usergroups/refresh-45,200,,Thread Group 1-1,,true,,867,536,1,1,https://nightly-oes3-gate.opsmx.com/platformservice/v1/users/user2/usergroups/refresh,367,0,0
+1600783421164,184,/oes/policy/endpointType-55,200,,Thread Group 1-1,text,true,,920,457,1,1,https://nightly-oes3-gate.opsmx.com/oes/policy/endpointType,184,0,0
+1600783421349,1339,/dashboardservice/v1/installation/installationmode-47,200,,Thread Group 1-1,text,true,,931,483,1,1,https://nightly-oes3-gate.opsmx.com/dashboardservice/v1/installation/installationmode,1339,0,0
+1600783422688,3046,/dashboardservice/v1/datasources-51,200,,Thread Group 1-1,text,true,,1781,465,1,1,https://nightly-oes3-gate.opsmx.com/dashboardservice/v1/datasources,3045,0,50
+1600783425735,886,/oes/audit/pipelineconfig-53,200,,Thread Group 1-1,text,true,,6011,474,1,1,https://nightly-oes3-gate.opsmx.com/oes/audit/pipelineconfig?isTreeView=true,827,0,38
+1600783426622,602,/oes/policy/list-54,200,,Thread Group 1-1,text,true,,993,449,1,1,https://nightly-oes3-gate.opsmx.com/oes/policy/list,602,0,0
+1600783427232,3890,/oes/audit/pipelinescount-52,200,,Thread Group 1-1,text,true,,1099,458,1,1,https://nightly-oes3-gate.opsmx.com/oes/audit/pipelinescount,3890,0,0
+1600783431122,2037,/dashboardservice/v1/dashboard/user2/applications-48,200,,Thread Group 1-1,text,true,,1261,482,1,1,https://nightly-oes3-gate.opsmx.com/dashboardservice/v1/dashboard/user2/applications,2036,0,13
+1600783415530,17363,login and Loading,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,19518,6190,1,1,null,17289,270,1590
+1600783444861,1634,/login-59,302,,Thread Group 1-1,,true,,920,563,1,1,https://nightly-oes3-gate.opsmx.com/login,1634,0,1527
+1600783446526,32,/auth/user-61,200,,Thread Group 1-1,text,true,,1138,443,1,1,https://nightly-oes3-gate.opsmx.com/auth/user,32,0,0
+1600783446559,88,/dashboardservice/v1/installation/installationmode-64,200,,Thread Group 1-1,text,true,,931,483,1,1,https://nightly-oes3-gate.opsmx.com/dashboardservice/v1/installation/installationmode,88,0,0
+1600783446648,87,/oes/policy/endpointType-72,200,,Thread Group 1-1,text,true,,920,457,1,1,https://nightly-oes3-gate.opsmx.com/oes/policy/endpointType,87,0,0
+1600783446737,101,/platformservice/v1/users/user2/usergroups/refresh-62,200,,Thread Group 1-1,,true,,867,536,1,1,https://nightly-oes3-gate.opsmx.com/platformservice/v1/users/user2/usergroups/refresh,101,0,0
+1600783446839,214,/oes/policy/list-71,200,,Thread Group 1-1,text,true,,993,449,1,1,https://nightly-oes3-gate.opsmx.com/oes/policy/list,214,0,0
+1600783447060,119,/oes/dashboard/dynamicMenu-63,200,,Thread Group 1-1,text,true,,1271,459,1,1,https://nightly-oes3-gate.opsmx.com/oes/dashboard/dynamicMenu,118,0,23
+1600783447199,147,/oes/dashboard/widgetRawData-66,200,,Thread Group 1-1,text,true,,1168,461,1,1,https://nightly-oes3-gate.opsmx.com/oes/dashboard/widgetRawData,147,0,0
+1600783447348,152,/dashboardservice/v1/datasources-68,200,,Thread Group 1-1,text,true,,1781,465,1,1,https://nightly-oes3-gate.opsmx.com/dashboardservice/v1/datasources,137,0,0
+1600783447501,336,/oes/audit/pipelineconfig-70,200,,Thread Group 1-1,text,true,,6011,474,1,1,https://nightly-oes3-gate.opsmx.com/oes/audit/pipelineconfig?isTreeView=true,334,0,0
+1600783447874,2589,/oes/audit/pipelinescount-69,200,,Thread Group 1-1,text,true,,1099,458,1,1,https://nightly-oes3-gate.opsmx.com/oes/audit/pipelinescount,2589,0,0
+1600783450464,242,/platformservice/v1/applications-67,200,,Thread Group 1-1,text,true,,1163,465,1,1,https://nightly-oes3-gate.opsmx.com/platformservice/v1/applications,242,0,16
+1600783450707,871,/dashboardservice/v1/dashboard/user2/applications-65,200,,Thread Group 1-1,text,true,,1261,482,1,1,https://nightly-oes3-gate.opsmx.com/dashboardservice/v1/dashboard/user2/applications,870,0,0
+1600783451578,743,/oes/accountsConfig/getAccounts-74,200,,Thread Group 1-1,text,true,,1151,471,1,1,https://nightly-oes3-gate.opsmx.com/oes/accountsConfig/getAccounts,743,0,0
+1600783452354,432,/autopilot/api/v1/credentials-75,200,,Thread Group 1-1,text,true,,915,469,1,1,https://nightly-oes3-gate.opsmx.com/autopilot/api/v1/credentials,432,0,0
+1600783444486,7787,Login and Loading,200,"Number of samples in transaction : 15, number of failing samples : 0",Thread Group 1-1,,true,,21589,7135,1,1,null,7768,603,1566
+1600783452876,554,/oes/accountsConfig/saveAccount-76,200,,Thread Group 1-1,,true,,805,526,1,1,https://nightly-oes3-gate.opsmx.com/oes/accountsConfig/saveAccount,554,0,396
+1600783453439,708,/oes/accountsConfig/saveAccount-77,200,,Thread Group 1-1,text,true,,980,671,1,1,https://nightly-oes3-gate.opsmx.com/oes/accountsConfig/saveAccount,708,0,0
+1600783454148,190,/oes/accountsConfig/getAccounts-78,200,,Thread Group 1-1,text,true,,1165,469,1,1,https://nightly-oes3-gate.opsmx.com/oes/accountsConfig/getAccounts,190,0,0
+1600783454339,243,/autopilot/api/v1/credentials-79,200,,Thread Group 1-1,text,true,,915,467,1,1,https://nightly-oes3-gate.opsmx.com/autopilot/api/v1/credentials,243,0,0
+1600783452875,1695,DataSouce create and save,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,3865,2133,1,1,null,1695,12,396
