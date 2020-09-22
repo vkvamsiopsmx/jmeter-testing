@@ -1,0 +1,27 @@
+Sep 22, 2020 6:30:54 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting the test @ Tue Sep 22 06:30:58 GMT 2020 (1600756258196)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      3 in 00:06:33 =    0.0/s Avg: 130788 Min: 130239 Max: 131071 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +      8 in 00:17:29 =    0.0/s Avg: 131070 Min: 131064 Max: 131072 Err:     8 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =     11 in 00:24:02 =    0.0/s Avg: 130993 Min: 130239 Max: 131072 Err:    11 (100.00%)
+summary +      2 in 00:04:22 =    0.0/s Avg: 131073 Min: 131070 Max: 131076 Err:     2 (100.00%) Active: 0 Started: 1 Finished: 1
+summary =     13 in 00:28:24 =    0.0/s Avg: 131005 Min: 130239 Max: 131076 Err:    13 (100.00%)
+Tidying up ...    @ Tue Sep 22 06:59:24 GMT 2020 (1600757964500)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting the test @ Tue Sep 22 06:59:31 GMT 2020 (1600757971247)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      3 in 00:06:33 =    0.0/s Avg: 130773 Min: 130214 Max: 131063 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +      5 in 00:10:55 =    0.0/s Avg: 131070 Min: 131067 Max: 131075 Err:     5 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =      8 in 00:17:28 =    0.0/s Avg: 130959 Min: 130214 Max: 131075 Err:     8 (100.00%)
+summary +      3 in 00:06:33 =    0.0/s Avg: 131070 Min: 131067 Max: 131074 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =     11 in 00:24:01 =    0.0/s Avg: 130989 Min: 130214 Max: 131075 Err:    11 (100.00%)
+summary +      8 in 00:17:29 =    0.0/s Avg: 131070 Min: 131070 Max: 131071 Err:     8 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =     19 in 00:41:30 =    0.0/s Avg: 131023 Min: 130214 Max: 131075 Err:    19 (100.00%)
+summary =     19 in 00:41:30 =    0.0/s Avg: 131023 Min: 130214 Max: 131075 Err:    19 (100.00%)
+Tidying up ...    @ Tue Sep 22 07:41:03 GMT 2020 (1600760463054)
+... end of run
