@@ -1,0 +1,68 @@
+2020-09-29 12:12:23,376 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-09-29 12:12:23,434 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.1.1/bin/user.properties
+2020-09-29 12:12:23,434 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.1.1/bin/system.properties
+2020-09-29 12:12:23,435 INFO o.a.j.JMeter: Setting JMeter property: gate-url=gitpr-gate-nightly.oes.opsmx.com
+2020-09-29 12:12:23,435 INFO o.a.j.JMeter: Setting JMeter property: ui-url=gitpr-ui-nightly.oes.opsmx.com
+2020-09-29 12:12:23,435 WARN o.a.j.JMeter: Removing JMeter property: port
+2020-09-29 12:12:23,435 INFO o.a.j.JMeter: Setting JMeter property: protocol=http
+2020-09-29 12:12:23,435 INFO o.a.j.JMeter: Setting JMeter property: username=user2
+2020-09-29 12:12:23,435 INFO o.a.j.JMeter: Setting JMeter property: password=user2password
+2020-09-29 12:12:23,435 INFO o.a.j.JMeter: Setting JMeter property: endpoint=opa:8181
+2020-09-29 12:12:23,454 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-09-29 12:12:23,454 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2020-09-29 12:12:23,454 INFO o.a.j.JMeter: java.version=1.8.0_222
+2020-09-29 12:12:23,454 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-09-29 12:12:23,454 INFO o.a.j.JMeter: os.name=Linux
+2020-09-29 12:12:23,455 INFO o.a.j.JMeter: os.arch=amd64
+2020-09-29 12:12:23,455 INFO o.a.j.JMeter: os.version=4.15.0-1092-azure
+2020-09-29 12:12:23,455 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-09-29 12:12:23,455 INFO o.a.j.JMeter: java.awt.headless=true
+2020-09-29 12:12:23,455 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-09-29 12:12:23,455 INFO o.a.j.JMeter: Available Processors =1
+2020-09-29 12:12:23,484 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-09-29 12:12:23,491 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-09-29 12:12:23,491 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.1.1
+2020-09-29 12:12:23,492 INFO o.a.j.JMeter: user.dir  =/jmeter-testing/jmeter-scripts
+2020-09-29 12:12:23,492 INFO o.a.j.JMeter: PWD       =/jmeter-testing/jmeter-scripts
+2020-09-29 12:12:23,492 INFO o.a.j.JMeter: IP: 10.244.3.141 Name: jmeter-3fe6958ed429ecf6-r4hc5 FullName: jmeter-3fe6958ed429ecf6-r4hc5
+2020-09-29 12:12:23,514 INFO o.a.j.s.FileServer: Default base='/jmeter-testing/jmeter-scripts'
+2020-09-29 12:12:23,530 INFO o.a.j.s.FileServer: Set new base='/jmeter-testing/jmeter-scripts'
+2020-09-29 12:12:24,074 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-09-29 12:12:24,139 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-09-29 12:12:24,166 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-09-29 12:12:24,186 INFO o.a.j.s.SaveService: Loading file: B-DataSource-OES3.jmx
+2020-09-29 12:12:24,321 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-09-29 12:12:24,390 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-29 12:12:24,391 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-29 12:12:24,391 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-29 12:12:24,391 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-09-29 12:12:24,391 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-09-29 12:12:24,391 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-09-29 12:12:25,371 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-09-29 12:12:25,410 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /opt/apache-jmeter-5.1.1/bin/proxyserver.jks
+2020-09-29 12:12:25,551 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-09-29 12:12:25,617 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-09-29 12:12:25,645 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-29 12:12:25,645 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-09-29 12:12:25,664 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-09-29 12:12:25,669 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-09-29 12:12:28,004 INFO o.a.j.JMeter: Running test (1601381548004)
+2020-09-29 12:12:28,277 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-09-29 12:12:28,277 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2020-09-29 12:12:28,279 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-09-29 12:12:28,279 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-09-29 12:12:28,336 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-09-29 12:12:28,336 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-09-29 12:12:28,455 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-09-29 12:12:28,456 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-09-29 12:12:28,456 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-09-29 12:12:28,456 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-09-29 12:12:28,468 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-09-29 12:12:28,791 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jmeter-3fe6958ed429ecf6-r4hc5
+2020-09-29 12:12:28,834 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-09-29 12:12:30,002 INFO o.a.j.r.Summariser: summary +      5 in 00:00:02 =    2.5/s Avg:   118 Min:    21 Max:   362 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-09-29 12:12:37,990 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-09-29 12:12:37,990 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-09-29 12:12:38,001 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-09-29 12:12:38,002 INFO o.a.j.r.Summariser: summary +     16 in 00:00:08 =    2.0/s Avg:   495 Min:    14 Max:  3799 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+2020-09-29 12:12:38,002 INFO o.a.j.r.Summariser: summary =     21 in 00:00:10 =    2.1/s Avg:   405 Min:    14 Max:  3799 Err:     0 (0.00%)
