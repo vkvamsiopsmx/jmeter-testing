@@ -1,0 +1,33 @@
+Oct 12, 2020 2:47:05 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting the test @ Mon Oct 12 02:47:07 GMT 2020 (1602470827927)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     13 in 00:00:21 =    0.6/s Avg:  1566 Min:   147 Max:  6254 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary =     13 in 00:00:21 =    0.6/s Avg:  1566 Min:   147 Max:  6254 Err:     0 (0.00%)
+Tidying up ...    @ Mon Oct 12 02:47:30 GMT 2020 (1602470850606)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting the test @ Mon Oct 12 02:47:38 GMT 2020 (1602470858690)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     21 in 00:00:11 =    1.9/s Avg:   483 Min:    28 Max:  3589 Err:     0 (0.00%)
+Tidying up ...    @ Mon Oct 12 02:47:51 GMT 2020 (1602470871222)
+... end of run
+Error in NonGUIDriver java.lang.IllegalArgumentException: Problem loading XML from:'/jmeter-testing/jmeter-scripts/C-Application-creation.jmx'. 
+Cause:
+CannotResolveClassException: JMESPathExtractor
+
+ Detail:com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+first-jmeter-class  : org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
+class               : org.apache.jmeter.save.ScriptWrapper
+required-type       : org.apache.jmeter.save.ScriptWrapper
+converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
+path                : /jmeterTestPlan/hashTree/hashTree/hashTree[4]/hashTree/hashTree[3]/hashTree[4]/JMESPathExtractor
+line number         : 1618
+version             : 5.1.1 r1855137
+-------------------------------
