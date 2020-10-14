@@ -1,0 +1,18 @@
+Oct 14, 2020 2:08:56 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting the test @ Wed Oct 14 14:08:59 GMT 2020 (1602684539719)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.4/s Avg:   244 Min:   244 Max:   244 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     12 in 00:00:06 =    2.1/s Avg:   471 Min:    17 Max:  2939 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     13 in 00:00:06 =    2.0/s Avg:   453 Min:    17 Max:  2939 Err:     0 (0.00%)
+Tidying up ...    @ Wed Oct 14 14:09:07 GMT 2020 (1602684547431)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting the test @ Wed Oct 14 14:09:14 GMT 2020 (1602684554135)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     21 in 00:00:05 =    3.8/s Avg:   233 Min:    15 Max:  2925 Err:     0 (0.00%)
+Tidying up ...    @ Wed Oct 14 14:09:20 GMT 2020 (1602684560992)
+... end of run
