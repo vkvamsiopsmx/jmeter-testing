@@ -1,0 +1,158 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1604412090733,350,/login-42,302,,Thread Group 1-1,,true,,793,565,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,350,0,150
+1604412091101,352,/auth/user-44,200,,Thread Group 1-1,,true,,745,462,1,1,http://gitpr-gate-nightly.oes.opsmx.com/auth/user,352,0,5
+1604412091458,251,/oes/dashboard/widgetRawData-49,200,,Thread Group 1-1,text,true,,2167,938,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,147,0,0
+1604412091458,147,/oes/dashboard/widgetRawData-49-0,302,,Thread Group 1-1,,true,,740,480,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/widgetRawData,147,0,0
+1604412091607,102,/oes/dashboard/widgetRawData-49-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,100,0,0
+1604412091717,152,/oes/dashboard/dynamicMenu-46,200,,Thread Group 1-1,text,true,,2167,936,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,122,0,0
+1604412091717,122,/oes/dashboard/dynamicMenu-46-0,302,,Thread Group 1-1,,true,,740,478,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/dynamicMenu,122,0,0
+1604412091839,30,/oes/dashboard/dynamicMenu-46-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,30,0,0
+1604412091874,114,/platformservice/v1/applications-50,200,,Thread Group 1-1,text,true,,2167,942,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,64,0,0
+1604412091874,64,/platformservice/v1/applications-50-0,302,,Thread Group 1-1,,true,,740,484,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/applications,64,0,0
+1604412091939,49,/platformservice/v1/applications-50-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,48,0,0
+1604412091990,104,/platformservice/v1/users/user2/usergroups/refresh-45,200,,Thread Group 1-1,text,true,,2167,1045,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,36,0,0
+1604412091990,36,/platformservice/v1/users/user2/usergroups/refresh-45-0,302,,Thread Group 1-1,,true,,740,555,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/users/user2/usergroups/refresh,36,0,0
+1604412092029,65,/platformservice/v1/users/user2/usergroups/refresh-45-1,200,,Thread Group 1-1,text,true,,1427,490,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,65,0,0
+1604412092095,105,/oes/policy/endpointType-55,200,,Thread Group 1-1,text,true,,2167,934,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,49,0,0
+1604412092095,49,/oes/policy/endpointType-55-0,302,,Thread Group 1-1,,true,,740,476,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/endpointType,49,0,0
+1604412092145,55,/oes/policy/endpointType-55-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,55,0,0
+1604412092201,104,/dashboardservice/v1/installation/installationmode-47,200,,Thread Group 1-1,text,true,,2167,960,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,42,0,0
+1604412092201,42,/dashboardservice/v1/installation/installationmode-47-0,302,,Thread Group 1-1,,true,,740,502,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/installation/installationmode,42,0,0
+1604412092243,62,/dashboardservice/v1/installation/installationmode-47-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,62,0,0
+1604412092306,98,/dashboardservice/v1/datasources-51,200,,Thread Group 1-1,text,true,,2167,942,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,60,0,0
+1604412092306,60,/dashboardservice/v1/datasources-51-0,302,,Thread Group 1-1,,true,,740,484,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/datasources,60,0,0
+1604412092366,38,/dashboardservice/v1/datasources-51-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,38,0,0
+1604412092406,118,/oes/audit/pipelineconfig-53,200,,Thread Group 1-1,text,true,,2167,951,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,77,0,0
+1604412092406,77,/oes/audit/pipelineconfig-53-0,302,,Thread Group 1-1,,true,,740,493,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelineconfig?isTreeView=true,77,0,0
+1604412092484,40,/oes/audit/pipelineconfig-53-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,40,0,0
+1604412092526,85,/oes/policy/list-54,200,,Thread Group 1-1,text,true,,2167,926,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,39,0,0
+1604412092526,39,/oes/policy/list-54-0,302,,Thread Group 1-1,,true,,740,468,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/list,39,0,0
+1604412092566,45,/oes/policy/list-54-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,44,0,0
+1604412092611,229,/oes/audit/pipelinescount-52,200,,Thread Group 1-1,text,true,,2167,935,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,114,0,0
+1604412092611,114,/oes/audit/pipelinescount-52-0,302,,Thread Group 1-1,,true,,740,477,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelinescount,114,0,0
+1604412092726,114,/oes/audit/pipelinescount-52-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,114,0,0
+1604412092842,87,/dashboardservice/v1/dashboard/user2/applications-48,200,,Thread Group 1-1,text,true,,2167,959,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,47,0,0
+1604412092842,47,/dashboardservice/v1/dashboard/user2/applications-48-0,302,,Thread Group 1-1,,true,,740,501,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/dashboard/user2/applications,47,0,0
+1604412092890,39,/dashboardservice/v1/dashboard/user2/applications-48-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,38,0,0
+1604412090459,2149,login and Loading,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,25375,11495,1,1,null,1499,321,155
+1604412100978,209,/login-59,302,,Thread Group 1-1,,true,,798,570,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,209,0,152
+1604412101229,33,/auth/user-61,200,,Thread Group 1-1,,true,,745,462,1,1,http://gitpr-gate-nightly.oes.opsmx.com/auth/user,33,0,0
+1604412101263,122,/dashboardservice/v1/installation/installationmode-64,200,,Thread Group 1-1,text,true,,2167,960,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,58,0,0
+1604412101263,58,/dashboardservice/v1/installation/installationmode-64-0,302,,Thread Group 1-1,,true,,740,502,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/installation/installationmode,58,0,0
+1604412101323,62,/dashboardservice/v1/installation/installationmode-64-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,61,0,0
+1604412101394,80,/oes/policy/endpointType-72,200,,Thread Group 1-1,text,true,,2167,934,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,48,0,0
+1604412101394,48,/oes/policy/endpointType-72-0,302,,Thread Group 1-1,,true,,740,476,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/endpointType,48,0,0
+1604412101443,31,/oes/policy/endpointType-72-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,31,0,0
+1604412101475,47,/platformservice/v1/users/user2/usergroups/refresh-62,200,,Thread Group 1-1,text,true,,2167,1045,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,28,0,0
+1604412101475,28,/platformservice/v1/users/user2/usergroups/refresh-62-0,302,,Thread Group 1-1,,true,,740,555,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/users/user2/usergroups/refresh,28,0,0
+1604412101503,19,/platformservice/v1/users/user2/usergroups/refresh-62-1,200,,Thread Group 1-1,text,true,,1427,490,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,19,0,0
+1604412101529,76,/oes/policy/list-71,200,,Thread Group 1-1,text,true,,2167,926,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,49,0,0
+1604412101529,49,/oes/policy/list-71-0,302,,Thread Group 1-1,,true,,740,468,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/list,49,0,0
+1604412101578,27,/oes/policy/list-71-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,27,0,0
+1604412101607,60,/oes/dashboard/dynamicMenu-63,200,,Thread Group 1-1,text,true,,2167,936,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,30,0,0
+1604412101607,30,/oes/dashboard/dynamicMenu-63-0,302,,Thread Group 1-1,,true,,740,478,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/dynamicMenu,30,0,0
+1604412101638,29,/oes/dashboard/dynamicMenu-63-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,29,0,0
+1604412101668,88,/oes/dashboard/widgetRawData-66,200,,Thread Group 1-1,text,true,,2167,938,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,38,0,0
+1604412101668,38,/oes/dashboard/widgetRawData-66-0,302,,Thread Group 1-1,,true,,740,480,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/widgetRawData,38,0,0
+1604412101706,50,/oes/dashboard/widgetRawData-66-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,50,0,0
+1604412101757,102,/dashboardservice/v1/datasources-68,200,,Thread Group 1-1,text,true,,2167,942,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,75,0,0
+1604412101757,75,/dashboardservice/v1/datasources-68-0,302,,Thread Group 1-1,,true,,740,484,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/datasources,75,0,0
+1604412101833,26,/dashboardservice/v1/datasources-68-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,26,0,0
+1604412101867,68,/oes/audit/pipelineconfig-70,200,,Thread Group 1-1,text,true,,2167,951,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,35,0,0
+1604412101867,35,/oes/audit/pipelineconfig-70-0,302,,Thread Group 1-1,,true,,740,493,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelineconfig?isTreeView=true,35,0,0
+1604412101902,33,/oes/audit/pipelineconfig-70-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,33,0,0
+1604412101936,57,/oes/audit/pipelinescount-69,200,,Thread Group 1-1,text,true,,2167,935,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,28,0,0
+1604412101936,28,/oes/audit/pipelinescount-69-0,302,,Thread Group 1-1,,true,,740,477,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelinescount,28,0,0
+1604412101964,29,/oes/audit/pipelinescount-69-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,29,0,0
+1604412101994,70,/platformservice/v1/applications-67,200,,Thread Group 1-1,text,true,,2167,942,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,36,0,0
+1604412101994,36,/platformservice/v1/applications-67-0,302,,Thread Group 1-1,,true,,740,484,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/applications,36,0,0
+1604412102031,33,/platformservice/v1/applications-67-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,33,0,0
+1604412102065,114,/dashboardservice/v1/dashboard/user2/applications-65,200,,Thread Group 1-1,text,true,,2167,959,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,74,0,0
+1604412102065,74,/dashboardservice/v1/dashboard/user2/applications-65-0,302,,Thread Group 1-1,,true,,740,501,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/dashboard/user2/applications,74,0,0
+1604412102140,39,/dashboardservice/v1/dashboard/user2/applications-65-1,200,,Thread Group 1-1,text,true,,1427,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,39,0,0
+1604412102180,129,/oes/accountsConfig/getAccounts-74,200,,Thread Group 1-1,text,true,,2167,955,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,37,0,0
+1604412102180,37,/oes/accountsConfig/getAccounts-74-0,302,,Thread Group 1-1,,true,,740,490,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,37,0,0
+1604412102218,91,/oes/accountsConfig/getAccounts-74-1,200,,Thread Group 1-1,text,true,,1427,465,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,91,0,0
+1604412102310,79,/autopilot/api/v1/credentials-75,200,,Thread Group 1-1,text,true,,2167,953,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,46,0,0
+1604412102310,46,/autopilot/api/v1/credentials-75-0,302,,Thread Group 1-1,,true,,740,488,1,1,http://gitpr-gate-nightly.oes.opsmx.com/autopilot/api/v1/credentials,46,0,0
+1604412102356,33,/autopilot/api/v1/credentials-75-1,200,,Thread Group 1-1,text,true,,1427,465,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,33,0,0
+1604412100733,1334,Login and Loading,200,"Number of samples in transaction : 15, number of failing samples : 0",Thread Group 1-1,,true,,29714,13408,1,1,null,824,322,152
+1604412102390,101,/oes/accountsConfig/saveAccount-76,200,,Thread Group 1-1,,true,,683,545,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/saveAccount,101,0,0
+1604412102492,140,/oes/accountsConfig/saveAccount-77,200,,Thread Group 1-1,text,true,,2167,1179,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,95,0,0
+1604412102492,95,/oes/accountsConfig/saveAccount-77-0,302,,Thread Group 1-1,,true,,740,684,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/saveAccount,95,0,0
+1604412102587,45,/oes/accountsConfig/saveAccount-77-1,200,,Thread Group 1-1,text,true,,1427,495,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,45,0,0
+1604412102634,147,/oes/accountsConfig/getAccounts-78,200,,Thread Group 1-1,text,true,,2167,951,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,79,0,0
+1604412102634,79,/oes/accountsConfig/getAccounts-78-0,302,,Thread Group 1-1,,true,,740,488,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,79,0,0
+1604412102713,68,/oes/accountsConfig/getAccounts-78-1,200,,Thread Group 1-1,text,true,,1427,463,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,68,0,0
+1604412102782,100,/autopilot/api/v1/credentials-79,200,,Thread Group 1-1,text,true,,2167,949,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,40,0,0
+1604412102782,40,/autopilot/api/v1/credentials-79-0,302,,Thread Group 1-1,,true,,740,486,1,1,http://gitpr-gate-nightly.oes.opsmx.com/autopilot/api/v1/credentials,40,0,0
+1604412102823,59,/autopilot/api/v1/credentials-79-1,200,,Thread Group 1-1,text,true,,1427,463,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,58,0,0
+1604412102389,488,DataSouce create and save,200,"Number of samples in transaction : 4, number of failing samples : 0",Thread Group 1-1,,true,,7184,3624,1,1,null,315,5,0
+1604412110893,123,/login-89,400,Bad Request,Thread Group 1-1,text,false,,419,571,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/login,123,0,104
+1604412111052,3,/auth/user-91,400,Bad Request,Thread Group 1-1,text,false,,419,404,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/auth/user,3,0,2
+1604412111056,6,/platformservice/v1/users//usergroups/refresh-92,400,Bad Request,Thread Group 1-1,text,false,,419,491,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/platformservice/v1/users//usergroups/refresh,6,0,1
+1604412111063,5,/dashboardservice/v1/datasources-97,400,Bad Request,Thread Group 1-1,text,false,,419,426,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/datasources,5,0,4
+1604412111069,8,/oes/dashboard/widgetRawData-95,400,Bad Request,Thread Group 1-1,text,false,,419,422,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/dashboard/widgetRawData,8,0,5
+1604412111087,11,/platformservice/v1/users//applications-96,400,Bad Request,Thread Group 1-1,text,false,,419,450,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/platformservice/v1/users//applications?permissionId=read,11,0,4
+1604412111099,3,/dashboardservice/v1/installation/installationmode-93,400,Bad Request,Thread Group 1-1,text,false,,419,444,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/installation/installationmode,3,0,2
+1604412111106,11,/dashboardservice/v1/dashboard//applications-94,400,Bad Request,Thread Group 1-1,text,false,,419,437,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/dashboard//applications,11,0,10
+1604412111118,12,/oes/policy/list-100,400,Bad Request,Thread Group 1-1,text,false,,419,410,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/policy/list,12,0,9
+1604412111137,5,/oes/policy/endpointType-101,400,Bad Request,Thread Group 1-1,text,false,,419,418,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/policy/endpointType,5,0,3
+1604412111143,7,/oes/audit/pipelineconfig-99,400,Bad Request,Thread Group 1-1,text,false,,419,435,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/audit/pipelineconfig?isTreeView=true,7,0,6
+1604412111151,6,/dashboardservice/v1/applications/14-102,400,Bad Request,Thread Group 1-1,text,false,,419,430,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/applications/14,6,0,5
+1604412111158,2,/autopilot/api/v1/defaultLogTemplate-109,400,Bad Request,Thread Group 1-1,text,false,,419,439,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/defaultLogTemplate,2,0,1
+1604412111167,9,/platformservice/v1/permissions-104,400,Bad Request,Thread Group 1-1,text,false,,419,425,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/platformservice/v1/permissions,9,0,2
+1604412111177,8,/platformservice/v1/usergroups-103,400,Bad Request,Thread Group 1-1,text,false,,419,424,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/platformservice/v1/usergroups,8,0,1
+1604412111187,3,/autopilot/api/v1/getClusterTags-110,400,Bad Request,Thread Group 1-1,text,false,,419,435,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/getClusterTags,3,0,1
+1604412111191,7,/oes/accountsConfig/getDockerAccounts-107,400,Bad Request,Thread Group 1-1,text,false,,419,440,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getDockerAccounts,7,0,6
+1604412111199,8,/oes/accountsConfig/getAccounts-105,400,Bad Request,Thread Group 1-1,text,false,,419,434,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,8,0,7
+1604412111208,9,/autopilot/api/v1/credentials-106,400,Bad Request,Thread Group 1-1,text,false,,419,432,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/credentials,9,0,8
+1604412111218,9,/oes/accountsConfig/getAccounts-111,400,Bad Request,Thread Group 1-1,text,false,,419,434,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,9,0,8
+1604412111227,9,/autopilot/api/v1/credentials-113,400,Bad Request,Thread Group 1-1,text,false,,419,432,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/credentials,9,0,2
+1604412111237,6,/oes/appOnboarding/pipelineTemplates-108,400,Bad Request,Thread Group 1-1,text,false,,419,439,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/appOnboarding/pipelineTemplates,6,0,5
+1604412111246,7,/oes/audit/pipelinescount-98,400,Bad Request,Thread Group 1-1,text,false,,419,419,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/audit/pipelinescount,7,0,6
+1604412110651,277,,,"Number of samples in transaction : 23, number of failing samples : 23",Thread Group 1-1,,false,,9637,10091,1,1,null,277,328,202
+1604412111256,4,/oes/appOnboarding/images-126,400,Bad Request,Thread Group 1-1,text,false,,419,452,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/appOnboarding/images?imageSource=Jmeter-test,3,0,2
+1604412111256,4,,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,,419,452,1,1,null,3,8,2
+1604412111269,9,/dashboardservice/v1/application-127,400,Bad Request,Thread Group 1-1,text,false,,419,492,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/application,9,0,8
+1604412111279,12,/dashboardservice/v1/application-128,400,Bad Request,Thread Group 1-1,text,false,,419,965,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/application,12,0,6
+1604412111292,2,/oes/accountsConfig/getDockerAccounts-134,400,Bad Request,Thread Group 1-1,text,false,,419,440,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getDockerAccounts,2,0,1
+1604412111296,2,/dashboardservice/v1/dashboard//applications-129,400,Bad Request,Thread Group 1-1,text,false,,419,464,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/dashboard//applications?permissionId=read,2,0,1
+1604412111347,10,/oes/accountsConfig/getDockerAccounts-136,400,Bad Request,Thread Group 1-1,text,false,,419,431,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getDockerAccounts,10,0,4
+1604412111360,7,/oes/accountsConfig/getAccounts-133,400,Bad Request,Thread Group 1-1,text,false,,419,434,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,6,0,5
+1604412111376,19,/autopilot/api/v1/credentials-135,400,Bad Request,Thread Group 1-1,text,false,,419,423,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/credentials,19,0,9
+1604412111396,2,/oes/accountsConfig/getAccounts-137,400,Bad Request,Thread Group 1-1,text,false,,419,425,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,2,0,1
+1604412111427,16,/autopilot/api/v1/credentials-132,400,Bad Request,Thread Group 1-1,text,false,,419,432,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/credentials,16,0,2
+1604412111444,3,/dashboardservice/v1/applications/14-130,400,Bad Request,Thread Group 1-1,text,false,,419,439,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/applications/14,3,0,2
+1604412111493,8,Debug Sampler,200,OK,Thread Group 1-1,text,true,,433,0,1,1,null,0,0,0
+1604412111268,90,,,"Number of samples in transaction : 11, number of failing samples : 10",Thread Group 1-1,,false,,4623,4945,1,1,null,81,144,39
+1604412111504,10,/oes/accountsConfig/getAccounts-325,400,Bad Request,Thread Group 1-1,text,false,,419,425,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,9,0,8
+1604412111520,10,/dashboardservice/v1/applications/17-321,400,Bad Request,Thread Group 1-1,text,false,,419,446,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/applications/not%20found,10,0,6
+1604412111531,6,/dashboardservice/v1/applications/jmetertest,400,Bad Request,Thread Group 1-1,text,false,,419,439,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/applications/not%20found,5,0,5
+1604412111537,8,/oes/dashboard/applications/jmetertest/releases-328,400,Bad Request,Thread Group 1-1,text,false,,419,442,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/dashboard/applications/not%20found/releases,8,0,3
+1604412111546,11,/oes/dashboard/applications/17/releases/newRelease-329,400,Bad Request,Thread Group 1-1,text,false,,419,453,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/dashboard/applications/not%20found/releases/newRelease,11,0,6
+1604412111503,45,,,"Number of samples in transaction : 5, number of failing samples : 5",Thread Group 1-1,,false,,2095,2205,1,1,null,43,9,28
+1604412111558,3,/oes/dashboard/applications/17/releases/newRelease-330,400,Bad Request,Thread Group 1-1,text,false,,419,510,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/dashboard/applications/not%20found/releases/newRelease,3,0,2
+1604412111561,3,/oes/dashboard/applications/17/releases/newRelease-331,400,Bad Request,Thread Group 1-1,text,false,,419,647,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/dashboard/applications/not%20found/releases/newRelease,3,0,2
+1604412111569,3,/oes/dashboard/applications/17/releases-332,400,Bad Request,Thread Group 1-1,text,false,,419,442,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/dashboard/applications/not%20found/releases,2,0,2
+1604412111558,9,,,"Number of samples in transaction : 3, number of failing samples : 3",Thread Group 1-1,,false,,1257,1599,1,1,null,8,9,6
+1604412111576,3,/autopilot/api/v1/credentials-39,400,Bad Request,Thread Group 1-1,text,false,,419,430,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/credentials,3,0,2
+1604412111579,2,/oes/accountsConfig/getAccounts-40,400,Bad Request,Thread Group 1-1,text,false,,419,432,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,2,0,1
+1604412111582,6,/dashboardservice/v1/application/36-42,400,Bad Request,Thread Group 1-1,text,false,,419,458,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/application/not%20found,6,0,5
+1604412111576,11,,,"Number of samples in transaction : 3, number of failing samples : 3",Thread Group 1-1,,false,,1257,1320,1,1,null,11,1,8
+1604412111589,2,/dashboardservice/v1/application/36-43,400,Bad Request,Thread Group 1-1,text,false,,419,531,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/application/not%20found,2,0,1
+1604412111592,8,/autopilot/api/v1/credentials-47,400,Bad Request,Thread Group 1-1,text,false,,419,430,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/credentials,8,0,7
+1604412111600,6,/autopilot/api/v1/credentials-51,400,Bad Request,Thread Group 1-1,text,false,,419,430,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/credentials,6,0,5
+1604412111607,2,/oes/accountsConfig/getAccounts-49,400,Bad Request,Thread Group 1-1,text,false,,419,432,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,2,0,1
+1604412111610,8,/oes/accountsConfig/getAccounts-46,400,Bad Request,Thread Group 1-1,text,false,,419,432,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,8,0,7
+1604412111618,14,/dashboardservice/v1/dashboard//applications-45,400,Bad Request,Thread Group 1-1,text,false,,419,444,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/dashboardservice/v1/dashboard//applications,9,0,8
+1604412111633,11,/oes/accountsConfig/getAccounts-53,400,Bad Request,Thread Group 1-1,text,false,,419,432,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/oes/accountsConfig/getAccounts,10,0,2
+1604412111645,2,/autopilot/api/v1/credentials-54,400,Bad Request,Thread Group 1-1,text,false,,419,430,1,1,http://gitpr-gate-nightly.oes.opsmx.com:443/autopilot/api/v1/credentials,2,0,1
+1604412111588,53,,,"Number of samples in transaction : 8, number of failing samples : 8",Thread Group 1-1,,false,,3352,3561,1,1,null,47,7,32
+1604412111653,37,/oes/accountsConfig/getAccounts-48,200,,Thread Group 1-1,text,true,,2153,803,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,16,0,2
+1604412111653,16,/oes/accountsConfig/getAccounts-48-0,302,,Thread Group 1-1,,true,,733,414,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,16,0,2
+1604412111671,19,/oes/accountsConfig/getAccounts-48-1,200,,Thread Group 1-1,text,true,,1420,389,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,9,0,0
+1604412111690,112,/oes/accountsConfig/deleteAccount/?accountName=Jmeter-test-50,200,,Thread Group 1-1,text,true,,2241,996,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,91,0,0
+1604412111690,91,/oes/accountsConfig/deleteAccount/?accountName=Jmeter-test-50-0,302,,Thread Group 1-1,,true,,821,534,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/deleteAccount/?accountName=Jmeter-test,91,0,0
+1604412111784,18,/oes/accountsConfig/deleteAccount/?accountName=Jmeter-test-50-1,200,,Thread Group 1-1,text,true,,1420,462,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,17,0,0
+1604412111648,149,DataSource-Delete,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,4394,1799,1,1,null,107,5,2
