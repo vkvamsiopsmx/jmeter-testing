@@ -992,7 +992,7 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&quot;datasourceType&quot;:&quot;DOCKERHUB&quot;,&quot;name&quot;:&quot;Jmeter-test&quot;,&quot;configurationFields&quot;:{&quot;name&quot;:&quot;docker.io/opsmx11&quot;,&quot;username&quot;:&quot;opsmx11&quot;,&quot;password&quot;:&quot;Network123!&quot;}}</stringProp>
+                    <stringProp name="Argument.value">{&quot;datasourceType&quot;:&quot;DOCKERHUB&quot;,&quot;name&quot;:&quot;Jmeter-test&quot;,&quot;configurationFields&quot;:{&quot;name&quot;:&quot;Jmeter-test&quot;,&quot;username&quot;:&quot;opsmx11&quot;,&quot;password&quot;:&quot;Network123!&quot;}}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
