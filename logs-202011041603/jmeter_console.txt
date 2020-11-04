@@ -1,0 +1,29 @@
+Nov 04, 2020 4:03:28 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting standalone test @ Wed Nov 04 16:03:30 GMT 2020 (1604505810301)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.4/s Avg:   226 Min:   226 Max:   226 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     12 in 00:00:41 =    0.3/s Avg:  3387 Min:    21 Max: 20076 Err:     2 (16.67%) Active: 0 Started: 1 Finished: 1
+summary =     13 in 00:00:41 =    0.3/s Avg:  3143 Min:    21 Max: 20076 Err:     2 (15.38%)
+Tidying up ...    @ Wed Nov 04 16:04:12 GMT 2020 (1604505852982)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting standalone test @ Wed Nov 04 16:04:18 GMT 2020 (1604505858529)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      6 in 00:00:41 =    0.1/s Avg:  6740 Min:    27 Max: 20055 Err:     2 (33.33%) Active: 1 Started: 1 Finished: 0
+summary +      3 in 00:01:00 =    0.0/s Avg: 20077 Min: 20048 Max: 20105 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =      9 in 00:01:41 =    0.1/s Avg: 11186 Min:    27 Max: 20105 Err:     5 (55.56%)
+summary +     10 in 00:00:10 =    1.0/s Avg:  1016 Min:    14 Max:  9752 Err:     6 (60.00%) Active: 0 Started: 1 Finished: 1
+summary =     19 in 00:01:51 =    0.2/s Avg:  5834 Min:    14 Max: 20105 Err:    11 (57.89%)
+Tidying up ...    @ Wed Nov 04 16:06:11 GMT 2020 (1604505971483)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using C-Application-creation.jmx
+Starting standalone test @ Wed Nov 04 16:06:17 GMT 2020 (1604505977331)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     56 in 00:00:02 =   34.4/s Avg:    11 Min:     2 Max:   186 Err:    53 (94.64%)
+Tidying up ...    @ Wed Nov 04 16:06:20 GMT 2020 (1604505980753)
+... end of run
