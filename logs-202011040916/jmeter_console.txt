@@ -1,0 +1,27 @@
+Nov 04, 2020 9:16:58 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting standalone test @ Wed Nov 04 09:17:00 GMT 2020 (1604481420022)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.5/s Avg:   260 Min:   260 Max:   260 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     12 in 00:00:17 =    0.7/s Avg:  1376 Min:    41 Max: 15341 Err:     1 (8.33%) Active: 0 Started: 1 Finished: 1
+summary =     13 in 00:00:17 =    0.8/s Avg:  1290 Min:    41 Max: 15341 Err:     1 (7.69%)
+Tidying up ...    @ Wed Nov 04 09:17:18 GMT 2020 (1604481438379)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting standalone test @ Wed Nov 04 09:17:23 GMT 2020 (1604481443705)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     11 in 00:00:11 =    1.0/s Avg:   936 Min:    33 Max:  9590 Err:     1 (9.09%) Active: 1 Started: 1 Finished: 0
+summary +      8 in 00:00:01 =    6.2/s Avg:   159 Min:    55 Max:   487 Err:     1 (12.50%) Active: 0 Started: 1 Finished: 1
+summary =     19 in 00:00:12 =    1.6/s Avg:   609 Min:    33 Max:  9590 Err:     2 (10.53%)
+Tidying up ...    @ Wed Nov 04 09:17:37 GMT 2020 (1604481457040)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using C-Application-creation.jmx
+Starting standalone test @ Wed Nov 04 09:17:41 GMT 2020 (1604481461702)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     56 in 00:00:01 =   37.7/s Avg:     8 Min:     0 Max:   153 Err:    53 (94.64%)
+Tidying up ...    @ Wed Nov 04 09:17:44 GMT 2020 (1604481464332)
+... end of run
