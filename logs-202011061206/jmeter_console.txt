@@ -1,0 +1,30 @@
+Nov 06, 2020 12:06:47 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting standalone test @ Fri Nov 06 12:06:49 GMT 2020 (1604664409319)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     13 in 00:00:42 =    0.3/s Avg:  3178 Min:    22 Max: 20072 Err:     2 (15.38%) Active: 1 Started: 1 Finished: 0
+summary =     13 in 00:00:42 =    0.3/s Avg:  3178 Min:    22 Max: 20072 Err:     2 (15.38%)
+Tidying up ...    @ Fri Nov 06 12:07:33 GMT 2020 (1604664453035)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting standalone test @ Fri Nov 06 12:07:39 GMT 2020 (1604664459346)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      4 in 00:00:21 =    0.2/s Avg:  5075 Min:    18 Max: 20085 Err:     1 (25.00%) Active: 1 Started: 1 Finished: 0
+summary +      4 in 00:01:00 =    0.1/s Avg: 15066 Min:    68 Max: 20095 Err:     3 (75.00%) Active: 1 Started: 1 Finished: 0
+summary =      8 in 00:01:21 =    0.1/s Avg: 10070 Min:    18 Max: 20095 Err:     4 (50.00%)
+summary +      3 in 00:01:00 =    0.0/s Avg: 20099 Min: 20075 Max: 20119 Err:     3 (100.00%) Active: 1 Started: 1 Finished: 0
+summary =     11 in 00:02:21 =    0.1/s Avg: 12805 Min:    18 Max: 20119 Err:     7 (63.64%)
+summary +      8 in 00:00:04 =    2.0/s Avg:   511 Min:    12 Max:  3772 Err:     4 (50.00%) Active: 0 Started: 1 Finished: 1
+summary =     19 in 00:02:26 =    0.1/s Avg:  7629 Min:    12 Max: 20119 Err:    11 (57.89%)
+Tidying up ...    @ Fri Nov 06 12:10:06 GMT 2020 (1604664606327)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using C-Application-creation.jmx
+Starting standalone test @ Fri Nov 06 12:10:14 GMT 2020 (1604664614037)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     56 in 00:00:02 =   30.6/s Avg:    12 Min:     2 Max:   171 Err:    53 (94.64%)
+Tidying up ...    @ Fri Nov 06 12:10:17 GMT 2020 (1604664617267)
+... end of run
