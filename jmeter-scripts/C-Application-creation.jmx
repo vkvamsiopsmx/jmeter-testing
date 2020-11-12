@@ -109,7 +109,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/login</stringProp>
@@ -174,7 +174,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/auth/redirectauto</stringProp>
@@ -224,7 +224,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/auth/user</stringProp>
@@ -280,7 +280,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/platformservice/v1/users/${username}/usergroups/refresh</stringProp>
@@ -333,7 +333,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/datasources</stringProp>
@@ -382,7 +382,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/dashboard/widgetRawData</stringProp>
@@ -439,7 +439,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/platformservice/v1/users/${username}/applications</stringProp>
@@ -488,7 +488,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/installation/installationmode</stringProp>
@@ -537,7 +537,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/dashboard/${username}/applications</stringProp>
@@ -586,7 +586,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/policy/list</stringProp>
@@ -635,7 +635,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/policy/endpointType</stringProp>
@@ -692,7 +692,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/audit/pipelineconfig</stringProp>
@@ -741,7 +741,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/applications/14</stringProp>
@@ -790,7 +790,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/defaultLogTemplate</stringProp>
@@ -839,7 +839,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/platformservice/v1/permissions</stringProp>
@@ -888,7 +888,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/platformservice/v1/usergroups</stringProp>
@@ -937,7 +937,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/getClusterTags</stringProp>
@@ -986,7 +986,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getDockerAccounts</stringProp>
@@ -1035,7 +1035,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -1084,7 +1084,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/credentials</stringProp>
@@ -1133,7 +1133,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -1182,7 +1182,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/credentials</stringProp>
@@ -1231,7 +1231,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/appOnboarding/pipelineTemplates</stringProp>
@@ -1280,7 +1280,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/audit/pipelinescount</stringProp>
@@ -1343,7 +1343,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/appOnboarding/images</stringProp>
@@ -1398,7 +1398,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/application</stringProp>
@@ -1462,7 +1462,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/application</stringProp>
@@ -1515,7 +1515,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getDockerAccounts</stringProp>
@@ -1572,7 +1572,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/dashboard/${username}/applications</stringProp>
@@ -1628,7 +1628,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getDockerAccounts</stringProp>
@@ -1677,7 +1677,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -1726,7 +1726,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/credentials</stringProp>
@@ -1775,7 +1775,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -1824,7 +1824,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/credentials</stringProp>
@@ -1873,7 +1873,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/applications/14</stringProp>
@@ -1934,7 +1934,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -1983,7 +1983,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/applications/${appId}</stringProp>
@@ -2032,7 +2032,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/applications/${appId}</stringProp>
@@ -2081,7 +2081,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/dashboard/applications/${appId}/releases</stringProp>
@@ -2130,7 +2130,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/dashboard/applications/${appId}/releases/newRelease</stringProp>
@@ -2185,7 +2185,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/dashboard/applications/${appId}/releases/newRelease</stringProp>
@@ -2249,7 +2249,7 @@
                 </collectionProp>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/dashboard/applications/${appId}/releases/newRelease</stringProp>
@@ -2302,7 +2302,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/dashboard/applications/${appId}/releases</stringProp>
@@ -2357,7 +2357,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/credentials</stringProp>
@@ -2406,7 +2406,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -2455,7 +2455,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/application/${appId}</stringProp>
@@ -2514,7 +2514,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/application/${appId}</stringProp>
@@ -2563,7 +2563,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/credentials</stringProp>
@@ -2612,7 +2612,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/credentials</stringProp>
@@ -2661,7 +2661,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -2710,7 +2710,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -2759,7 +2759,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/dashboardservice/v1/dashboard/${username}/applications</stringProp>
@@ -2808,7 +2808,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/oes/accountsConfig/getAccounts</stringProp>
@@ -2857,7 +2857,7 @@
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
-              <stringProp name="HTTPSampler.port">443</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
               <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/autopilot/api/v1/credentials</stringProp>
