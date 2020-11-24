@@ -1,0 +1,39 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1606199729705,266,/login-42,302,,Thread Group 1-1,,true,,782,565,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,266,0,169
+1606199729991,41,/auth/user-44,200,,Thread Group 1-1,text,true,,1016,462,1,1,http://gitpr-gate-nightly.oes.opsmx.com/auth/user,41,0,2
+1606199730040,86,/oes/dashboard/widgetRawData-49,200,,Thread Group 1-1,text,true,,1046,480,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/widgetRawData,71,0,0
+1606199730129,46,/oes/dashboard/dynamicMenu-46,200,,Thread Group 1-1,text,true,,1149,478,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/dynamicMenu,46,0,0
+1606199730190,86,/platformservice/v1/applications-50,500,,Thread Group 1-1,text,false,,1161,484,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/applications,82,0,0
+1606199730278,116,/platformservice/v1/users/user2/usergroups/refresh-45,500,,Thread Group 1-1,text,false,,1173,555,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/users/user2/usergroups/refresh,116,0,0
+1606199730395,33,/oes/policy/endpointType-55,200,,Thread Group 1-1,text,true,,798,476,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/endpointType,33,0,0
+1606199730429,68,/dashboardservice/v1/installation/installationmode-47,200,,Thread Group 1-1,text,true,,809,502,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/installation/installationmode,68,0,0
+1606199730498,86,/dashboardservice/v1/datasources-51,200,,Thread Group 1-1,text,true,,1649,484,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/datasources,83,0,0
+1606199730587,88,/oes/audit/pipelineconfig-53,200,,Thread Group 1-1,text,true,,7137,493,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelineconfig?isTreeView=true,88,0,0
+1606199730676,48,/oes/policy/list-54,200,,Thread Group 1-1,text,true,,871,468,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/list,48,0,0
+1606199730725,1656,/oes/audit/pipelinescount-52,200,,Thread Group 1-1,text,true,,978,477,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelinescount,1656,0,0
+1606199732381,101,/dashboardservice/v1/dashboard/user2/applications-48,500,,Thread Group 1-1,text,false,,1166,501,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/dashboard/user2/applications,96,0,0
+1606199729325,2721,login and Loading,,"Number of samples in transaction : 13, number of failing samples : 3",Thread Group 1-1,,false,,19735,6425,1,1,null,2694,436,171
+1606199740460,172,/login-59,302,,Thread Group 1-1,,true,,787,570,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,172,0,124
+1606199740669,20,/auth/user-61,200,,Thread Group 1-1,text,true,,1016,462,1,1,http://gitpr-gate-nightly.oes.opsmx.com/auth/user,20,0,0
+1606199740690,28,/dashboardservice/v1/installation/installationmode-64,200,,Thread Group 1-1,text,true,,809,502,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/installation/installationmode,28,0,0
+1606199740729,39,/oes/policy/endpointType-72,200,,Thread Group 1-1,text,true,,798,476,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/endpointType,39,0,0
+1606199740774,77,/platformservice/v1/users/user2/usergroups/refresh-62,500,,Thread Group 1-1,text,false,,1168,555,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/users/user2/usergroups/refresh,77,0,0
+1606199740859,34,/oes/policy/list-71,200,,Thread Group 1-1,text,true,,871,468,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/list,34,0,0
+1606199740894,37,/oes/dashboard/dynamicMenu-63,200,,Thread Group 1-1,text,true,,1149,478,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/dynamicMenu,36,0,0
+1606199740931,23,/oes/dashboard/widgetRawData-66,200,,Thread Group 1-1,text,true,,1046,480,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/widgetRawData,23,0,0
+1606199740954,130,/dashboardservice/v1/datasources-68,200,,Thread Group 1-1,text,true,,1649,484,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/datasources,129,0,0
+1606199741085,191,/oes/audit/pipelineconfig-70,200,,Thread Group 1-1,text,true,,7142,493,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelineconfig?isTreeView=true,184,0,0
+1606199741277,2000,/oes/audit/pipelinescount-69,200,,Thread Group 1-1,text,true,,978,477,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelinescount,1999,0,0
+1606199743278,50,/platformservice/v1/applications-67,500,,Thread Group 1-1,text,false,,1161,484,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/applications,49,0,0
+1606199743329,76,/dashboardservice/v1/dashboard/user2/applications-65,500,,Thread Group 1-1,text,false,,1167,501,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/dashboard/user2/applications,73,0,0
+1606199743408,96,/oes/accountsConfig/getAccounts-74,401,,Thread Group 1-1,text,false,,1344,490,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,69,0,0
+1606199743504,170,/autopilot/api/v1/credentials-75,200,,Thread Group 1-1,text,true,,793,488,1,1,http://gitpr-gate-nightly.oes.opsmx.com/autopilot/api/v1/credentials,170,0,0
+1606199740214,3143,Login and Loading,,"Number of samples in transaction : 15, number of failing samples : 4",Thread Group 1-1,,false,,21878,7408,1,1,null,3102,317,124
+1606199743675,36,/oes/accountsConfig/saveAccount-76,200,,Thread Group 1-1,,true,,683,545,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/saveAccount,36,0,0
+1606199743713,108,/oes/accountsConfig/saveAccount-77,401,,Thread Group 1-1,text,false,,1345,684,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/saveAccount,107,0,0
+1606199743821,118,/oes/accountsConfig/getAccounts-78,401,,Thread Group 1-1,text,false,,1346,488,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,118,0,0
+1606199743940,66,/autopilot/api/v1/credentials-79,200,,Thread Group 1-1,text,true,,793,486,1,1,http://gitpr-gate-nightly.oes.opsmx.com/autopilot/api/v1/credentials,66,0,0
+1606199743674,328,DataSouce create and save,,"Number of samples in transaction : 4, number of failing samples : 2",Thread Group 1-1,,false,,4167,2203,1,1,null,327,4,0
+1606199744007,112,/oes/accountsConfig/deleteAccount/?accountName=Jmeter-test-57,401,,Thread Group 1-1,text,false,,1332,600,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/deleteAccount/?accountName=Jmeter-test,107,0,0
+1606199744120,159,/oes/accountsConfig/getAccounts-58,401,,Thread Group 1-1,text,false,,1337,480,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,153,0,0
+1606199744006,271,DataSource-Delete,,"Number of samples in transaction : 2, number of failing samples : 2",Thread Group 1-1,,false,,2669,1080,1,1,null,260,3,0
