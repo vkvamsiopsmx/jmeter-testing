@@ -1,0 +1,101 @@
+Dec 02, 2020 6:44:38 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting standalone test @ Wed Dec 02 06:44:44 GMT 2020 (1606891484306)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     12 in 00:00:10 =    1.2/s Avg:   618 Min:    46 Max:  2961 Err:     1 (8.33%) Active: 1 Started: 1 Finished: 0
+summary +      1 in 00:00:03 =    0.3/s Avg:  2867 Min:  2867 Max:  2867 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     13 in 00:00:13 =    1.0/s Avg:   791 Min:    46 Max:  2961 Err:     1 (7.69%)
+Tidying up ...    @ Wed Dec 02 06:45:03 GMT 2020 (1606891503890)
+... end of run
+The JVM should have exited but did not.
+The following non-daemon threads are still running (DestroyJavaVM is OK):
+Thread[AWT-EventQueue-0,6,main], stackTrace:sun.misc.Unsafe#park
+java.util.concurrent.locks.LockSupport#park at line:175
+java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject#await at line:2039
+java.awt.EventQueue#getNextEvent at line:554
+java.awt.EventDispatchThread#pumpOneEventForFilters at line:187
+java.awt.EventDispatchThread#pumpEventsForFilter at line:116
+java.awt.EventDispatchThread#pumpEventsForHierarchy at line:105
+java.awt.EventDispatchThread#pumpEvents at line:101
+java.awt.EventDispatchThread#pumpEvents at line:93
+java.awt.EventDispatchThread#run at line:82
+
+Thread[DestroyJavaVM,5,main], stackTrace:
+Thread[StandardJMeterEngine,5,main], stackTrace:java.lang.Object#wait
+java.lang.Thread#join at line:1252
+java.lang.Thread#join at line:1326
+java.lang.ApplicationShutdownHooks#runHooks at line:107
+java.lang.ApplicationShutdownHooks$1#run at line:46
+java.lang.Shutdown#runHooks at line:123
+java.lang.Shutdown#sequence at line:167
+java.lang.Shutdown#exit at line:212
+java.lang.Runtime#exit at line:109
+java.lang.System#exit at line:973
+org.apache.jmeter.engine.StandardJMeterEngine#run at line:495
+java.lang.Thread#run at line:748
+
+Thread[AWT-Shutdown,5,system], stackTrace:java.lang.Object#wait
+sun.awt.AWTAutoShutdown#run at line:314
+java.lang.Thread#run at line:748
+
+Thread[Thread-2,5,main], stackTrace:java.math.BigInteger#compareMagnitude at line:3642
+java.math.BigInteger#compareTo at line:3623
+sun.security.rsa.RSACore#parseMsg at line:213
+sun.security.rsa.RSACore#crypt at line:133
+sun.security.rsa.RSACore#rsa at line:100
+sun.security.rsa.RSASignature#engineVerify at line:215
+java.security.Signature$Delegate#engineVerify at line:1394
+java.security.Signature#verify at line:771
+sun.security.pkcs.SignerInfo#verify at line:461
+sun.security.pkcs.PKCS7#verify at line:579
+sun.security.pkcs.PKCS7#verify at line:596
+sun.security.util.SignatureFileVerifier#processImpl at line:287
+sun.security.util.SignatureFileVerifier#process at line:263
+java.util.jar.JarVerifier#processEntry at line:318
+java.util.jar.JarVerifier#update at line:230
+java.util.jar.JarFile#initializeVerifier at line:383
+java.util.jar.JarFile#getInputStream at line:455
+sun.net.www.protocol.jar.JarURLConnection#getInputStream at line:164
+java.net.URL#openStream at line:1068
+java.util.ServiceLoader#parse at line:304
+java.util.ServiceLoader#access$200 at line:185
+java.util.ServiceLoader$LazyIterator#hasNextService at line:357
+java.util.ServiceLoader$LazyIterator#hasNext at line:393
+java.util.ServiceLoader$1#hasNext at line:474
+javax.xml.transform.FactoryFinder$1#run at line:279
+java.security.AccessController#doPrivileged
+javax.xml.transform.FactoryFinder#findServiceProvider at line:275
+javax.xml.transform.FactoryFinder#find at line:251
+javax.xml.transform.TransformerFactory#newInstance at line:106
+java.util.prefs.XmlSupport#writeDoc at line:263
+java.util.prefs.XmlSupport#exportMap at line:355
+java.util.prefs.FileSystemPreferences$7#run at line:634
+java.util.prefs.FileSystemPreferences$7#run at line:627
+java.security.AccessController#doPrivileged
+java.util.prefs.FileSystemPreferences#writeBackCache at line:626
+java.util.prefs.FileSystemPreferences#syncSpiPrivileged at line:813
+java.util.prefs.FileSystemPreferences#access$2300 at line:50
+java.util.prefs.FileSystemPreferences$12#run at line:783
+java.util.prefs.FileSystemPreferences$12#run at line:781
+java.security.AccessController#doPrivileged
+java.util.prefs.FileSystemPreferences#syncSpi at line:780
+java.util.prefs.AbstractPreferences#sync2 at line:1338
+java.util.prefs.AbstractPreferences#sync2 at line:1343
+java.util.prefs.AbstractPreferences#sync at line:1329
+java.util.prefs.FileSystemPreferences#sync at line:759
+java.util.prefs.FileSystemPreferences#flush at line:836
+java.util.prefs.FileSystemPreferences#syncWorld at line:476
+java.util.prefs.FileSystemPreferences#access$1200 at line:50
+java.util.prefs.FileSystemPreferences$4$1#run at line:454
+
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting standalone test @ Wed Dec 02 06:45:23 GMT 2020 (1606891523178)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:03 =    0.3/s Avg:   805 Min:   805 Max:   805 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     20 in 00:00:07 =    2.8/s Avg:   344 Min:    40 Max:  2738 Err:     1 (5.00%) Active: 0 Started: 1 Finished: 1
+summary =     21 in 00:00:11 =    2.0/s Avg:   366 Min:    40 Max:  2738 Err:     1 (4.76%)
+Tidying up ...    @ Wed Dec 02 06:45:40 GMT 2020 (1606891540426)
+... end of run
