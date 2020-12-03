@@ -524,8 +524,8 @@
               </HeaderManager>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/oes/dashboard/widgetRawData-66" enabled="true">
-              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+<!--             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/oes/dashboard/widgetRawData-66" enabled="true">
+             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
               </elementProp>
               <stringProp name="HTTPSampler.domain">${gate-url}</stringProp>
@@ -572,7 +572,7 @@
                 </collectionProp>
               </HeaderManager>
               <hashTree/>
-            </hashTree>
+            </hashTree> -->
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/dashboardservice/v1/datasources-68" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments"/>
