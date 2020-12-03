@@ -1,0 +1,55 @@
+Dec 03, 2020 8:49:13 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-login-OES3.jmx
+Starting standalone test @ Thu Dec 03 08:49:20 GMT 2020 (1606985360124)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      8 in 00:00:05 =    1.7/s Avg:   408 Min:    77 Max:  2109 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      4 in 00:00:13 =    0.3/s Avg:  3342 Min:    70 Max: 11025 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     12 in 00:00:18 =    0.7/s Avg:  1386 Min:    70 Max: 11025 Err:     0 (0.00%)
+Tidying up ...    @ Thu Dec 03 08:49:44 GMT 2020 (1606985384087)
+... end of run
+The JVM should have exited but did not.
+The following non-daemon threads are still running (DestroyJavaVM is OK):
+Thread[StandardJMeterEngine,5,main], stackTrace:java.lang.Object#wait
+java.lang.Thread#join at line:1252
+java.lang.Thread#join at line:1326
+java.lang.ApplicationShutdownHooks#runHooks at line:107
+java.lang.ApplicationShutdownHooks$1#run at line:46
+java.lang.Shutdown#runHooks at line:123
+java.lang.Shutdown#sequence at line:167
+java.lang.Shutdown#exit at line:212
+java.lang.Runtime#exit at line:109
+java.lang.System#exit at line:973
+org.apache.jmeter.engine.StandardJMeterEngine#run at line:495
+java.lang.Thread#run at line:748
+
+Thread[AWT-EventQueue-0,6,main], stackTrace:sun.misc.Unsafe#park
+java.util.concurrent.locks.LockSupport#park at line:175
+java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject#await at line:2039
+java.awt.EventQueue#getNextEvent at line:554
+java.awt.EventDispatchThread#pumpOneEventForFilters at line:187
+java.awt.EventDispatchThread#pumpEventsForFilter at line:116
+java.awt.EventDispatchThread#pumpEventsForHierarchy at line:105
+java.awt.EventDispatchThread#pumpEvents at line:101
+java.awt.EventDispatchThread#pumpEvents at line:93
+java.awt.EventDispatchThread#run at line:82
+
+Thread[DestroyJavaVM,5,main], stackTrace:
+Thread[AWT-Shutdown,5,system], stackTrace:java.lang.Object#wait
+sun.awt.AWTAutoShutdown#run at line:314
+java.lang.Thread#run at line:748
+
+Thread[Thread-2,5,main], stackTrace:java.util.prefs.FileSystemPreferences#sync at line:730
+java.util.prefs.FileSystemPreferences#flush at line:836
+java.util.prefs.FileSystemPreferences#syncWorld at line:476
+java.util.prefs.FileSystemPreferences#access$1200 at line:50
+java.util.prefs.FileSystemPreferences$4$1#run at line:454
+
+Creating summariser <summary>
+Created the tree successfully using B-DataSource-OES3.jmx
+Starting standalone test @ Thu Dec 03 08:49:59 GMT 2020 (1606985399989)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     20 in 00:00:16 =    1.3/s Avg:   720 Min:    31 Max: 10838 Err:     0 (0.00%)
+Tidying up ...    @ Thu Dec 03 08:50:20 GMT 2020 (1606985420116)
+... end of run
