@@ -1,0 +1,37 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1607485703343,85,/login-42,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,381,565,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,85,0,78
+1607485703431,4,/auth/user-44,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,396,1,1,http://gitpr-gate-nightly.oes.opsmx.com/auth/user,4,0,2
+1607485703436,1,/oes/dashboard/dynamicMenu-46,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,412,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/dynamicMenu,1,0,0
+1607485703438,0,/platformservice/v1/applications-50,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,418,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/applications,0,0,0
+1607485703439,1,/platformservice/v1/users/user2/usergroups/refresh-45,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,489,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/users/user2/usergroups/refresh,1,0,0
+1607485703441,1,/oes/policy/endpointType-55,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,410,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/endpointType,1,0,0
+1607485703442,1,/dashboardservice/v1/installation/installationmode-47,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,436,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/installation/installationmode,1,0,0
+1607485703444,0,/dashboardservice/v1/datasources-51,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,418,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/datasources,0,0,0
+1607485703445,1,/oes/audit/pipelineconfig-53,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,427,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelineconfig?isTreeView=true,1,0,0
+1607485703447,1,/oes/policy/list-54,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,402,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/list,1,0,0
+1607485703448,1,/oes/audit/pipelinescount-52,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,411,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelinescount,1,0,0
+1607485703450,1,/dashboardservice/v1/dashboard/user2/applications-48,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,435,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/dashboard/user2/applications,1,0,0
+1607485703259,97,login and Loading,,"Number of samples in transaction : 12, number of failing samples : 12",Thread Group 1-1,,false,,4627,5219,1,1,null,97,95,80
+1607485706258,65,/login-59,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,570,1,1,http://gitpr-gate-nightly.oes.opsmx.com/login,65,0,55
+1607485706337,1,/auth/user-61,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,396,1,1,http://gitpr-gate-nightly.oes.opsmx.com/auth/user,1,0,0
+1607485706338,2,/dashboardservice/v1/installation/installationmode-64,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,436,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/installation/installationmode,2,0,0
+1607485706340,1,/oes/policy/endpointType-72,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,410,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/endpointType,1,0,0
+1607485706342,1,/platformservice/v1/users/user2/usergroups/refresh-62,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,489,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/users/user2/usergroups/refresh,1,0,0
+1607485706343,1,/oes/policy/list-71,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,402,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/policy/list,1,0,0
+1607485706345,1,/oes/dashboard/dynamicMenu-63,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,412,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/dashboard/dynamicMenu,1,0,0
+1607485706346,1,/dashboardservice/v1/datasources-68,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,418,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/datasources,1,0,0
+1607485706348,1,/oes/audit/pipelineconfig-70,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,427,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelineconfig?isTreeView=true,1,0,0
+1607485706350,1,/oes/audit/pipelinescount-69,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,411,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/audit/pipelinescount,1,0,0
+1607485706351,1,/platformservice/v1/applications-67,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,418,1,1,http://gitpr-gate-nightly.oes.opsmx.com/platformservice/v1/applications,1,0,0
+1607485706353,1,/dashboardservice/v1/dashboard/user2/applications-65,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,435,1,1,http://gitpr-gate-nightly.oes.opsmx.com/dashboardservice/v1/dashboard/user2/applications,1,0,0
+1607485706354,1,/oes/accountsConfig/getAccounts-74,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,424,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,1,0,0
+1607485706356,1,/autopilot/api/v1/credentials-75,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,422,1,1,http://gitpr-gate-nightly.oes.opsmx.com/autopilot/api/v1/credentials,1,0,0
+1607485706180,79,Login and Loading,,"Number of samples in transaction : 14, number of failing samples : 14",Thread Group 1-1,,false,,5404,6070,1,1,null,79,98,55
+1607485706358,1,/oes/accountsConfig/saveAccount-76,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,479,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/saveAccount,1,0,0
+1607485706359,1,/oes/accountsConfig/saveAccount-77,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,618,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/saveAccount,1,0,0
+1607485706361,1,/oes/accountsConfig/getAccounts-78,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,422,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,1,0,0
+1607485706362,1,/autopilot/api/v1/credentials-79,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,420,1,1,http://gitpr-gate-nightly.oes.opsmx.com/autopilot/api/v1/credentials,1,0,0
+1607485706357,4,DataSouce create and save,,"Number of samples in transaction : 4, number of failing samples : 4",Thread Group 1-1,,false,,1544,1939,1,1,null,4,2,0
+1607485706363,1,/oes/accountsConfig/deleteAccount/?accountName=Jmeter-test-57,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,534,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/deleteAccount/?accountName=Jmeter-test,1,0,0
+1607485706365,1,/oes/accountsConfig/getAccounts-58,503,Service Temporarily Unavailable,Thread Group 1-1,text,false,,386,414,1,1,http://gitpr-gate-nightly.oes.opsmx.com/oes/accountsConfig/getAccounts,1,0,0
+1607485706363,2,DataSource-Delete,,"Number of samples in transaction : 2, number of failing samples : 2",Thread Group 1-1,,false,,772,948,1,1,null,2,1,0
