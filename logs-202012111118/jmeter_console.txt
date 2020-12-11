@@ -1,0 +1,59 @@
+Dec 11, 2020 11:19:06 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-docker-ds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 11:19:07 GMT 2020 (1607685547631)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     45 in 00:00:13 =    3.4/s Avg:   101 Min:     1 Max:  1187 Err:     4 (8.89%)
+Tidying up ...    @ Fri Dec 11 11:19:21 GMT 2020 (1607685561156)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-elastic-ds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 11:19:24 GMT 2020 (1607685564152)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      9 in 00:00:06 =    1.5/s Avg:   644 Min:     9 Max:  1056 Err:     5 (55.56%) Active: 1 Started: 1 Finished: 0
+summary +     40 in 00:00:29 =    1.4/s Avg:   729 Min:     8 Max:  1062 Err:    27 (67.50%) Active: 1 Started: 1 Finished: 0
+summary =     49 in 00:00:35 =    1.4/s Avg:   713 Min:     8 Max:  1062 Err:    32 (65.31%)
+summary +     14 in 00:00:09 =    1.5/s Avg:   668 Min:     7 Max:  1061 Err:    10 (71.43%) Active: 0 Started: 1 Finished: 1
+summary =     63 in 00:00:45 =    1.4/s Avg:   703 Min:     7 Max:  1062 Err:    42 (66.67%)
+Tidying up ...    @ Fri Dec 11 11:20:09 GMT 2020 (1607685609471)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using C-gitds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 11:20:11 GMT 2020 (1607685611719)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     58 in 00:00:04 =   15.0/s Avg:    61 Min:     5 Max:   607 Err:     4 (6.90%)
+Tidying up ...    @ Fri Dec 11 11:20:16 GMT 2020 (1607685616087)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using D-jenkins-ds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 11:20:18 GMT 2020 (1607685618544)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     53 in 00:00:09 =    5.6/s Avg:    58 Min:     4 Max:   553 Err:     4 (7.55%)
+Tidying up ...    @ Fri Dec 11 11:20:28 GMT 2020 (1607685628558)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using E-jirads-create-delete.jmx
+Starting standalone test @ Fri Dec 11 11:20:31 GMT 2020 (1607685631228)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.4/s Avg:   466 Min:   466 Max:   466 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     54 in 00:00:09 =    5.9/s Avg:    55 Min:     2 Max:   604 Err:     4 (7.41%) Active: 0 Started: 1 Finished: 1
+summary =     55 in 00:00:10 =    5.6/s Avg:    63 Min:     2 Max:   604 Err:     4 (7.27%)
+Tidying up ...    @ Fri Dec 11 11:20:41 GMT 2020 (1607685641597)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using F-prom-ds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 11:20:43 GMT 2020 (1607685643790)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     35 in 00:00:07 =    5.3/s Avg:    65 Min:     2 Max:   461 Err:     2 (5.71%)
+Tidying up ...    @ Fri Dec 11 11:20:50 GMT 2020 (1607685650932)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using G-sonarqube-create-delete.jmx
+Starting standalone test @ Fri Dec 11 11:20:53 GMT 2020 (1607685653705)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     52 in 00:00:07 =    7.1/s Avg:    76 Min:     3 Max:   802 Err:     4 (7.69%) Active: 1 Started: 1 Finished: 0
+summary +      8 in 00:00:24 =    0.3/s Avg:    15 Min:     7 Max:    25 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     60 in 00:00:32 =    1.9/s Avg:    68 Min:     3 Max:   802 Err:     4 (6.67%)
+Tidying up ...    @ Fri Dec 11 11:21:26 GMT 2020 (1607685686049)
+... end of run
