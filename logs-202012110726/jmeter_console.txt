@@ -1,0 +1,61 @@
+Dec 11, 2020 7:26:59 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-docker-ds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 07:27:00 GMT 2020 (1607671620714)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.5/s Avg:   455 Min:   455 Max:   455 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     44 in 00:00:14 =    3.3/s Avg:   118 Min:     1 Max:  1466 Err:     4 (9.09%) Active: 0 Started: 1 Finished: 1
+summary =     45 in 00:00:14 =    3.2/s Avg:   126 Min:     1 Max:  1466 Err:     4 (8.89%)
+Tidying up ...    @ Fri Dec 11 07:27:15 GMT 2020 (1607671635317)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-elastic-ds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 07:27:17 GMT 2020 (1607671637916)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     63 in 00:00:07 =    9.3/s Avg:   103 Min:     5 Max:  1619 Err:     4 (6.35%)
+Tidying up ...    @ Fri Dec 11 07:27:25 GMT 2020 (1607671645147)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using C-gitds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 07:27:27 GMT 2020 (1607671647281)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     33 in 00:00:02 =   14.2/s Avg:    63 Min:     6 Max:   611 Err:     3 (9.09%) Active: 1 Started: 1 Finished: 0
+summary +     25 in 00:00:01 =   17.1/s Avg:    55 Min:     5 Max:   713 Err:     1 (4.00%) Active: 0 Started: 1 Finished: 1
+summary =     58 in 00:00:04 =   15.4/s Avg:    60 Min:     5 Max:   713 Err:     4 (6.90%)
+Tidying up ...    @ Fri Dec 11 07:27:31 GMT 2020 (1607671651507)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using D-jenkins-ds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 07:27:33 GMT 2020 (1607671653721)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.9/s Avg:   351 Min:   351 Max:   351 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     52 in 00:00:09 =    6.0/s Avg:    50 Min:     6 Max:   542 Err:     4 (7.69%) Active: 0 Started: 1 Finished: 1
+summary =     53 in 00:00:09 =    5.7/s Avg:    56 Min:     6 Max:   542 Err:     4 (7.55%)
+Tidying up ...    @ Fri Dec 11 07:27:43 GMT 2020 (1607671663375)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using E-jirads-create-delete.jmx
+Starting standalone test @ Fri Dec 11 07:27:45 GMT 2020 (1607671665563)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     55 in 00:00:09 =    6.1/s Avg:    48 Min:     1 Max:   433 Err:     4 (7.27%)
+Tidying up ...    @ Fri Dec 11 07:27:54 GMT 2020 (1607671674928)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using F-prom-ds-create-delete.jmx
+Starting standalone test @ Fri Dec 11 07:27:56 GMT 2020 (1607671676935)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     32 in 00:00:04 =    7.6/s Avg:    61 Min:     6 Max:   487 Err:     2 (6.25%) Active: 1 Started: 1 Finished: 0
+summary +      3 in 00:00:02 =    1.4/s Avg:    54 Min:     1 Max:   133 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     35 in 00:00:06 =    5.5/s Avg:    61 Min:     1 Max:   487 Err:     2 (5.71%)
+Tidying up ...    @ Fri Dec 11 07:28:03 GMT 2020 (1607671683795)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using G-sonarqube-create-delete.jmx
+Starting standalone test @ Fri Dec 11 07:28:05 GMT 2020 (1607671685967)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     58 in 00:00:26 =    2.2/s Avg:    85 Min:     3 Max:  2081 Err:     5 (8.62%) Active: 1 Started: 1 Finished: 0
+summary +      2 in 00:00:06 =    0.3/s Avg:    13 Min:     8 Max:    19 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     60 in 00:00:32 =    1.9/s Avg:    83 Min:     3 Max:  2081 Err:     5 (8.33%)
+Tidying up ...    @ Fri Dec 11 07:28:38 GMT 2020 (1607671718662)
+... end of run
