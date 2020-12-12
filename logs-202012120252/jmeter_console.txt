@@ -1,0 +1,57 @@
+Dec 12, 2020 2:52:21 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-docker-ds-create-delete.jmx
+Starting standalone test @ Sat Dec 12 02:52:22 GMT 2020 (1607741542196)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     40 in 00:00:07 =    5.4/s Avg:   180 Min:    12 Max:  1508 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      5 in 00:00:08 =    0.6/s Avg:    33 Min:     2 Max:    62 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     45 in 00:00:16 =    2.8/s Avg:   164 Min:     2 Max:  1508 Err:     0 (0.00%)
+Tidying up ...    @ Sat Dec 12 02:52:38 GMT 2020 (1607741558437)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-elastic-ds-create-delete.jmx
+Starting standalone test @ Sat Dec 12 02:52:40 GMT 2020 (1607741560856)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     63 in 00:00:05 =   12.6/s Avg:    74 Min:     8 Max:   733 Err:    20 (31.75%)
+Tidying up ...    @ Sat Dec 12 02:52:46 GMT 2020 (1607741566271)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using C-gitds-create-delete.jmx
+Starting standalone test @ Sat Dec 12 02:52:48 GMT 2020 (1607741568373)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     58 in 00:00:04 =   16.5/s Avg:    55 Min:     7 Max:   590 Err:     0 (0.00%)
+Tidying up ...    @ Sat Dec 12 02:52:52 GMT 2020 (1607741572309)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using D-jenkins-ds-create-delete.jmx
+Starting standalone test @ Sat Dec 12 02:52:54 GMT 2020 (1607741574377)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     52 in 00:00:06 =    9.1/s Avg:    47 Min:     7 Max:   410 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +      1 in 00:00:03 =    0.3/s Avg:    26 Min:    26 Max:    26 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     53 in 00:00:09 =    6.0/s Avg:    47 Min:     7 Max:   410 Err:     0 (0.00%)
+Tidying up ...    @ Sat Dec 12 02:53:03 GMT 2020 (1607741583550)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using E-jirads-create-delete.jmx
+Starting standalone test @ Sat Dec 12 02:53:05 GMT 2020 (1607741585698)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     55 in 00:00:09 =    6.4/s Avg:    41 Min:     1 Max:   359 Err:     0 (0.00%)
+Tidying up ...    @ Sat Dec 12 02:53:14 GMT 2020 (1607741594733)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using F-prom-ds-create-delete.jmx
+Starting standalone test @ Sat Dec 12 02:53:16 GMT 2020 (1607741596859)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     35 in 00:00:06 =    6.0/s Avg:    44 Min:     1 Max:   391 Err:     0 (0.00%)
+Tidying up ...    @ Sat Dec 12 02:53:23 GMT 2020 (1607741603114)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using G-sonarqube-create-delete.jmx
+Starting standalone test @ Sat Dec 12 02:53:25 GMT 2020 (1607741605263)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     52 in 00:00:06 =    9.4/s Avg:    44 Min:     2 Max:   397 Err:    12 (23.08%) Active: 1 Started: 1 Finished: 0
+summary +      8 in 00:00:24 =    0.3/s Avg:    22 Min:     8 Max:    31 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     60 in 00:00:30 =    2.0/s Avg:    41 Min:     2 Max:   397 Err:    12 (20.00%)
+Tidying up ...    @ Sat Dec 12 02:53:55 GMT 2020 (1607741635486)
+... end of run
