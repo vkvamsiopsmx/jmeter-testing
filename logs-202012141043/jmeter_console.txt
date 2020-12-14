@@ -1,0 +1,59 @@
+Dec 14, 2020 10:43:59 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using A-docker-ds-create-delete.jmx
+Starting standalone test @ Mon Dec 14 10:44:00 GMT 2020 (1607942640245)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:01 =    1.5/s Avg:   445 Min:   445 Max:   445 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     44 in 00:00:17 =    2.6/s Avg:   196 Min:     2 Max:  4119 Err:     2 (4.55%) Active: 0 Started: 1 Finished: 1
+summary =     45 in 00:00:18 =    2.6/s Avg:   201 Min:     2 Max:  4119 Err:     2 (4.44%)
+Tidying up ...    @ Mon Dec 14 10:44:18 GMT 2020 (1607942658297)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using B-elastic-ds-create-delete.jmx
+Starting standalone test @ Mon Dec 14 10:44:21 GMT 2020 (1607942661125)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     63 in 00:00:04 =   16.8/s Avg:    54 Min:     5 Max:   545 Err:     0 (0.00%)
+Tidying up ...    @ Mon Dec 14 10:44:25 GMT 2020 (1607942665393)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using C-gitds-create-delete.jmx
+Starting standalone test @ Mon Dec 14 10:44:27 GMT 2020 (1607942667806)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      9 in 00:00:03 =    2.7/s Avg:   350 Min:     5 Max:  2426 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+summary +     49 in 00:00:03 =   15.6/s Avg:    62 Min:     5 Max:  2148 Err:     2 (4.08%) Active: 0 Started: 1 Finished: 1
+summary =     58 in 00:00:07 =    8.9/s Avg:   106 Min:     5 Max:  2426 Err:     2 (3.45%)
+Tidying up ...    @ Mon Dec 14 10:44:34 GMT 2020 (1607942674855)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using D-jenkins-ds-create-delete.jmx
+Starting standalone test @ Mon Dec 14 10:44:37 GMT 2020 (1607942677172)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     53 in 00:00:12 =    4.3/s Avg:   114 Min:     5 Max:  2440 Err:     2 (3.77%)
+Tidying up ...    @ Mon Dec 14 10:44:50 GMT 2020 (1607942690107)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using E-jirads-create-delete.jmx
+Starting standalone test @ Mon Dec 14 10:44:52 GMT 2020 (1607942692451)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     53 in 00:00:09 =    6.1/s Avg:   100 Min:     3 Max:  1856 Err:     2 (3.77%) Active: 1 Started: 1 Finished: 0
+summary +      2 in 00:00:03 =    0.7/s Avg:    10 Min:     1 Max:    20 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     55 in 00:00:12 =    4.7/s Avg:    96 Min:     1 Max:  1856 Err:     2 (3.64%)
+Tidying up ...    @ Mon Dec 14 10:45:04 GMT 2020 (1607942704618)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using F-prom-ds-create-delete.jmx
+Starting standalone test @ Mon Dec 14 10:45:06 GMT 2020 (1607942706880)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     35 in 00:00:07 =    4.9/s Avg:    80 Min:     1 Max:  1753 Err:     1 (2.86%)
+Tidying up ...    @ Mon Dec 14 10:45:14 GMT 2020 (1607942714531)
+... end of run
+Creating summariser <summary>
+Created the tree successfully using G-sonarqube-create-delete.jmx
+Starting standalone test @ Mon Dec 14 10:45:16 GMT 2020 (1607942716807)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +     53 in 00:00:13 =    4.0/s Avg:   132 Min:     2 Max:  2438 Err:     2 (3.77%) Active: 1 Started: 1 Finished: 0
+summary +      7 in 00:00:21 =    0.3/s Avg:    14 Min:     6 Max:    18 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+summary =     60 in 00:00:34 =    1.7/s Avg:   119 Min:     2 Max:  2438 Err:     2 (3.33%)
+Tidying up ...    @ Mon Dec 14 10:45:51 GMT 2020 (1607942751772)
+... end of run
